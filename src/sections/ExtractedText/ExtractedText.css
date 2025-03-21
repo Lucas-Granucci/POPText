@@ -1,0 +1,36 @@
+.text-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.text-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-heading h2 {
+    color: var(--primary);
+}
+
+.text-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.text-content {
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid var(--shadow);
+    min-height: 400px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.extracting .btn-text {
+    display: none;
+}
