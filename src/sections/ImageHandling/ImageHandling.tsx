@@ -67,7 +67,7 @@ const ImageHandlingSection: React.FC<ImageHandlingSectionProps> = ({ setText }) 
 
             <div className="image-preview">
                 {!image ? (
-                    <img src="/api/placeholder/400/320" alt="Placeholder image here" />
+                    <img src="https://placehold.co/600x400@2x.png" alt="Placeholder image here" />
                 ) : (
                     <img src={image} alt="Preview image here" />
                 )}
